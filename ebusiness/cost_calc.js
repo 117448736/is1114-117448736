@@ -1,31 +1,33 @@
+/* global $ */
 
-
-function calcsub(){
-
-var argsubtotal;
-
-if (document.getElementById('salesforce').checked) {
-    argsubtotal=100;
-}
-else{
-    argsubtotal=300;
-}
-
-display(argSubTotal);
-}
-function display (parm1){
+function calcSub(){
     
-    document.getElementById("subtotal") value=parm1;
-    document.getElementById("total").value=parm1;
+    var argSubTotal;
     
-    enablebtnProceed();
+    if(document.getElementById('salesforce').checked) {
+      argSubTotal = 100;
+    }
+    else {
+      argSubTotal = 300;
+    }
+    
+    display(argSubTotal);
 }
 
-function enablebtnProceed();
-$('#btnProceed').prop('disabled',false);
+function display(parm1){
+  
+  document.getElementById("subtotal").value = parm1;
+  document.getElementById("total").value = parm1;
+        
+  enablebtnProceed();
 }
 
-function disablebtnProceed();
-$('#btnProceed').prop('disabled',true);
 
+function enablebtnProceed(){
+    $('#btnProceed').prop('disabled', false);
 }
+
+function disablebtnProceed() {
+    $('#btnProceed').prop('disabled', true);
+}
+
