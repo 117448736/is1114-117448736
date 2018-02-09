@@ -11,7 +11,7 @@ function calcSub(){
       argSubTotal = 300;
     }
     
-    display(argSubTotal);
+display(argSubTotal);
 }
 
 function display(parm1){
