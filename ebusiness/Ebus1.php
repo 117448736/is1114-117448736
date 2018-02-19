@@ -18,7 +18,14 @@
         
         <label for = "salesforce">
         <input type = "radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-        salesforce @ $100
+        SalesForce @ $100
+        </label>
+        
+        <br/>
+    
+        <label for ="cloud9">  
+        <input type = "radio" id ="cloud9" name="product" checked onClick = "disablebtnProceed()"/>
+        Cloud 9 @ $200
         </label>
         
         <br/>
@@ -26,7 +33,13 @@
         <label for = "aws">
             <input type = "radio" id="aws" name="product" checked onClick="disablebtnProceed()"/>
             AWS @ $300
-            
+        </label>
+        
+        <br/>
+        
+        <label for ="gmail">
+            <input type ="radio" id="gmail" name="product" checked onclick ="disablebtnProceed()"/>
+            Gmail @ $400
         </label>
         
         <br/>
