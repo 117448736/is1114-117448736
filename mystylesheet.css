@@ -7,6 +7,7 @@
 }
 
 body{
-    background-color: rgb(238,0,90);
-}
-
+   background-image: url("https://www.thecollegeview.com/wp-content/uploads/2017/02/UCC-credit-UCC-678x381.jpg");
+   background-repeat: no-repeat;
+   background-size:cover ;
+  }
