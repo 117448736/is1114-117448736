@@ -1,5 +1,7 @@
 #section1{
-    background-color: rgb(238,0,90);
+    background-color: rgb(00,00,00);
+    background-image: url("http://exoticcareerconsultancy.com/img/countries/france1.jpg");
+    background-repeat: "no-repeat";
 }
 
 #section2{
@@ -10,7 +12,19 @@
     background-color: rgb(51,153,204);
 }
 
+#section4{
+    background-color: rgb(19,76,140)
+}
+
+#section5{
+    background-color:rgb(190,14,45);
+}
+
+#section6{
+    background-color: rgb(67,49,140)
+}
 .section{ 
     text-align:center;
     color:white;
 }
+
