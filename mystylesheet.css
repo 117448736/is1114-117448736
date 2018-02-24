@@ -1,9 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #555;
+}
+
 .mainheading{
     text-align: center;
     color:dodgerblue;
 }
 
 .subheading{
-    text-align: center;
+    text-align:center;
+}
+    
+.backgroundimage{
+    
+    background-image: url("https://cork2017.technology-assessment.info/images/12-101P1000405_1.jpg")
+}
+
+.backgroundimage{
+    background-repeat: no-repeat
+}
+
+.backgroundimage{
+    background-size:cover;
 }
 

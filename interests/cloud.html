@@ -1,100 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <title>About Cloud Page</title>
-            
-        <link ref = "stylesheet" href="mystylesheet.css" type = "text/css" />
+<head> 
+        <meta charset="utf-8"/>
+        <title>About Cloud Page</title>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+        <link rel="stylesheet" href="int_pages.css" type="text/css" />
+        
+        <!--Adding Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        
+        <!--Page Piling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <script type = "text/javascript">
+             $(document).ready(function() {
+                $('#pagepiling').pagepiling({
+                });
+             });
+        </script>
+        
         
 </head>
 
 <body>
-<h1 style = "color:DodgerBlue;" align = "center"> Cloud Storage </h1>
-    <p>
-        <div align = "center">
-    <img  src="http://cloudnewsdaily.com/wp-content/uploads/2015/09/Cloud-Storage.png" 
-    alt = "Image of Cloud Storage" style = "width:400;height:200;" />
-    </div>
-    </p>
- 
- <p>
-     <h2 class = "subheading">About Cloud</h2>
-     
-    
 
-Cloud storage works through data center virtualization, providing end users and 
-applications with a virtual storage architecture that is scalable according to 
-application requirements. In general, cloud storage operates through a web-based 
-API that is remotely implemented through its interaction with the client 
-application's in-house cloud storage infrastructure for input/output (I/O) 
-and read/write (R/W) operations.
-When delivered through a public service provider, cloud storage is known as 
-utility storage. Private cloud storage provides the same scalability, flexibility 
-and storage mechanism with restricted or non-public access
-  Flexibility
-
-
- </p>
- 
- <p>
-     <h2 class ="subheading">Benefits of Cloud Storage</h2>
-     <ol>
-         <li> Flexibility
-
-Cloud-based services are ideal for businesses with growing or fluctuating bandwidth 
-demands. If your needs increase it’s easy to scale up your cloud capacity, drawing 
-on the service’s remote servers. Likewise, if you need to scale down again, the 
-flexibility is baked into the service. This level of agility can give businesses
-using cloud computing a real advantage over competitors – it’s not surprising 
-that CIOs and IT Directors rank ‘operational agility’ as a top driver for cloud 
-adoption
-</li>
-<li>Disaster recovery
-
-Businesses of all sizes should be investing in robust disaster recovery, but for 
-smaller businesses that lack the required cash and expertise, this is often more 
-an ideal than the reality. Cloud is now helping more organisations buck that trend. 
-According to Aberdeen Group, small businesses are twice as likely as larger companies
-to have implemented cloud-based backup and recovery solutions that save time, avoid 
-large up-front investment and roll up third-party expertise as part of the deal
-</li>
-
-<li>Automatic software updates
-
-The beauty of cloud computing is that the servers are off-premise, out of sight 
-and out of your hair. Suppliers take care of them for you and roll out regular 
-software updates – including security updates – so you don’t have to worry about
-wasting time maintaining the system yourself. Leaving you free to focus on the 
-things that matter, like growing your business.
-</li>
-
-<li>Capital-expenditure Free
-
-Cloud computing cuts out the high cost of hardware. You simply pay as you go and 
-enjoy a subscription-based model that’s kind to your cash flow. Add to that the 
-ease of setup and management and suddenly your scary, hairy IT project looks at 
-lot friendlier. It’s never been easier to take the first step to cloud adoption.
-</li>
-
-<li>Increased collaboration
-
-When your teams can access, edit and share documents anytime, from anywhere, 
-they’re able to do more together, and do it better. Cloud-based workflow and file 
-sharing apps help them make updates in real time and gives them full visibility 
-of their collaborations
-</li>
-     </ol>
- </p>
-
-<h2 class="subheading">Examples Of Cloud Storage Platforms</h2>
-<ul>
-    <li>Amazon</li>
-    <li>Salesforce</li>
-    <li>Cloud9</li>
-    <li>Gmail</li>
-    
-    
-</ul>
-</body>
+   <div id="pagepiling">
+            <div class="section" id="section4">Amazon Web Services</div>
+        	<div class="section" id="section5">Salesforce</div>
+        	<div class="section" id="section6">Cloud 9</div>
+        	<div class="section" id="section7">
+        	   Google Drive
+        	    <br/>
+        	    <a href="../homepage.html" class="btn btn-success">Home</a>
+        	</div>
+        </div> 
 
 
 
