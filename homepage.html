@@ -5,6 +5,7 @@
             
         <link ref = "stylesheet" href="mystylesheet.css" type = "text/css" />
         
+
     </head>   
     
     <body class ="backgroundimage">
@@ -13,11 +14,37 @@
         
         <div align="center">
         <ul>
-        <li><a href="CV/cv_page1.html">Curriculum Vitae</a> </li>
-        <li><a href="interests/sports.html">Interests</a></li>
+        <li class="dropdown">
+            <a href="CV/cv_page1.html">Curriculum Vitae</a>
+    <div class="dropdown-content">
+      <a href="CV/cv_page1.html">Personal Details</a>
+      <a href="CV/cv_page2.html">Educational Details</a>
+      <a href="CV/cv_page3.html">Work Experience</a>
+    </div> 
+    </li>
+        <li class="dropdown">
+            <a href="interests/sports.html">Interests</a>
+     <div class="dropdown-content">
+         <a href="interests/sports.html">Sports</a>
+         <a href="interests/favplayer.html">Player Profile</a>
+         <a href="interests/travel.html">Travel</a>
+         <a href="interest/cloud.html">Cloud Page</a>
+     </div>       
+            </li>
+            
         <li><a href="ebusiness/Ebus1.php" >Ebus</a></li>
-        <li><a href ="CloudServices/cloudhomepage.html">Cloud Services</a></li>
-        <li><a href="interests/cloud.html">The About Cloud Page</a></li>
+        
+        <li class="dropdown">
+            <a href ="CloudServices/cloudhomepage.html">Cloud Services</a>
+        <div class="dropdown-content">
+            <a href="CloudServices/amazon.html">Amazon</a>
+            <a href="CloudServices/C9.html">Cloud 9</a>
+            <a href="CloudServices/gmail.html">Google Drive</a>
+            <a href="CloudServices/salesforce.html">SalesForce</a>
+        </div></li>
+        
+        
+        <li><a href="interests/cloud.html">About Cloud Page</a></li>
         </ul>
        </div>
        

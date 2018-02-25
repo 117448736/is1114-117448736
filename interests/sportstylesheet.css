@@ -1,11 +1,18 @@
-.flag{
-    height:100%;
-    width:100%;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Civil_and_Naval_Ensign_of_France.svg/300px-Civil_and_Naval_Ensign_of_France.svg.png");
-    background-size: cover
-}
 
 .mainheading { 
     text-align: center;
     color:dodgerblue;
+}
+
+.responsive {
+    width: 100%;
+    margin-bottom: 30px;
+    border-top: 1px dashed #ccc;
+}
+
+.table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
