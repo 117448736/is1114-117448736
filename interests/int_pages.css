@@ -1,17 +1,34 @@
 #section1{
     background-color: rgb(00,00,00);
     background-image: url("http://exoticcareerconsultancy.com/img/countries/france1.jpg");
-    background-repeat: "no-repeat";
+}
+#section1{
+    background-size: cover
+}
+#section1{
+    background-repeat:"no-repeat";
 }
 
 #section2{
     background-color: rgb(44,62,80);
+    background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1456964259/clients/lasvegas/PM_Strip_2014_PH_North_Night_0069G_optimized_f4c0f862-8bb4-49ee-a728-98d2c1846714.jpg");
 }
-
+#section2{
+    background-repeat:no-repeat;
+}
+#section2{
+    background-size: cover;
+}
 #section3{
     background-color: rgb(51,153,204);
+    background-image:url("https://hotels.ng/guides/wp-content/uploads/2017/07/australia.jpg");
 }
-
+#section3{
+    background-repeat:no-repeat;
+}
+#secttion3{
+    background-size: cover;
+}
 #section4{
     background-color: rgb(19,76,140)
 }
