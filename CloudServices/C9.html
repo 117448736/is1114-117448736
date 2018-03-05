@@ -5,7 +5,35 @@
         <title> Cloud 9 </title>
         
         <link ref = "stylesheet" href="cloudstylesheet.css" type = "text/css" />
-        
+        <style>
+                      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #200200200;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+        </style>
         
         
     </head>
@@ -13,6 +41,15 @@
    <body>
        
       <h1 class="mainheading" align ="center" style="color:dodgerblue">Cloud 9</h1>
+      
+       <ul>
+             <li class="active"><a href="cloudhomepage.html">Home</a></li>
+             <li><a href="amazon.html">Amazon</a></li> 
+             <li><a href="gmail.html">Gmail</a></li>
+             <li><a href="salesforce.html">Salesforce</a></li>
+            </ul>
+            
+            <br/>
        <div align="center">
        <a href="https://aws.amazon.com/cloud9/">
        <img src="https://static.c9.io/nc-3.1.4109-2ffb85e2-wf/static/plugins/c9.profile/static/images/cloud9-logo.svg" alt="image of C9" height="100px" width="150px"/>

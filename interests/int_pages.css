@@ -6,7 +6,7 @@
     background-size: cover
 }
 #section1{
-    background-repeat:"no-repeat";
+    background-repeat:no-repeat;
 }
 
 #section2{
@@ -49,4 +49,6 @@
     text-align:center;
     color:white;
 }
+
+
 

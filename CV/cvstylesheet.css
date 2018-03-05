@@ -1,5 +1,18 @@
-.mainheadings{
-    text-align: center;
-    color:dodgerblue ;
-    
+.mainheading{
+     text-align: center;
+     color: dodgerblue;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.gradient {
+    height: 200px;
+    background: blue; 
+    background: linear-gradient( rgba(27,143,145,0), rgba(27,143,145,1));
+}
+.gradient{
+    background-size: cover
+}
+.subheading{
+    color:white;
+    font-family:Arial,Helvetica,sans-serif;
+    text-align:center;
 }

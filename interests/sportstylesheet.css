@@ -1,9 +1,9 @@
 
 .mainheading { 
     text-align: center;
-    color:dodgerblue;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 table, th, td {
     border: 1px solid black;
@@ -24,3 +24,23 @@ th, td {
 
 #playerprofile tr:hover {background-color: #ddd;}
 
+.sportsgradient {
+    height: 200px;
+    background: red; 
+    background: linear-gradient( rgba(255, 22, 22,0), rgba(255, 22, 22,1));
+}
+
+.sportsgradient{
+    background-size: cover
+}
+
+.hooperheading{
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.rugbyheaading{
+    color:blue;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center
+}

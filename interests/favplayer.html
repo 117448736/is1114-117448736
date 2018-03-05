@@ -3,21 +3,37 @@
     <head>
         <title>My Favourite Rugby Player</title>
         <link ref = "stylesheet" href="sportstylesheet.css" type = "text/css" />
-        
+        <style>
+            
+            .hoopergradient {
+    height: 200px;
+    background: yellow; 
+    background: linear-gradient( rgba(255, 255, 0,0), rgba(255, 255, 0,1));
+    }
+
+    .hoopergradient{
+    background-size: cover
+    }
+       
+        </style>
         
     </head>
     
-    <body>
+    <body class="hoopergradient">
         <div align="center">
-        <h1 class="mainheading"> Michael Hooper </h1>
+        <h1 class="hooperheading"> Michael Hooper </h1>
         <h2 class= "subheading"> Backrow</h2>
+        <br/>
+        
         <a href="https://en.wikipedia.org/wiki/Michael_Hooper_(rugby_union)">
-        <div align="center">
-        <img src="https://www.rugby.com.au/-/media/wallabies-2017/michael-hooper.ashx?mw=288&hash=66E4771545ACAC8A8F7D4FD6159DBFC3414B2984" alt="Image of Michael Hooper" style="float:right" height="325px" hspace="250"> 
+       
+        <img src="https://www.rugby.com.au/-/media/wallabies-2017/michael-hooper.ashx?mw=288&hash=66E4771545ACAC8A8F7D4FD6159DBFC3414B2984" alt="Image of Michael Hooper" height="325px" > 
           
           </a>
           <br/>
+          <div align="center">
           <h2>Player Profile</h2>
+          </div>
           
           <table id="playerprofile">
            
@@ -69,14 +85,13 @@
         
         <div align="center">
         <h2>Sporting Honours</h2>
-        </div>
+        
         <ul>
           <li>He was named International Player of the Tournament The 2011 IRB Junior World Championship.</li>  
           <li>2-Time winner of John Eales Rookie of the Year Award</li>
           <li>The Mandela Challenge Plate 2014</li> 
-          
-          
         </ul>
+        </div>
         
         <br/>
         <a href ="cloud.html" style="float:right"  class="btn btn-dark" >Next</a>
