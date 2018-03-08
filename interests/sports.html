@@ -2,10 +2,17 @@
 <html>
     <head>
         <title>Sports</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+</style>
         <link rel="stylesheet" href="sportstylesheet.css" type="text/css" />
         
         
         <style>
+        
+        .mySlides {display:none;}
             
             .sports {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -13,33 +20,55 @@
 
 }
 
+.sports tr:nth-child(even){background-color: #ffffff;}
+
+.sports tr:nth-child(even){background-color: #ffffff;}
+
 .sports td, #customers th {
     border: 1px solid #ddd;
 }
-
-.sports tr:nth-child(even){background-color: #f2f2f2;}
 
 .sports tr:hover {background-color: #ddd;}
 
 .sports th {
     text-align: left;
-    background-color: #ff0000;
-    color: white;
-}
+    background-color: #ffffff;
+ color:red ;}
         </style>
         
-        <!-- Adding Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
         
-   </head>
+</head>
     
   <body class="sportsgradient">
         <h1 class="mainheading">Sports</h1>
         <div align="center">
         <br/>
+        <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="http://video.skysports.com/E5aHV3NjE6JDxfNqhihVJnM1QRasd49J/promo301420074" alt="Munster" style="width:100%" height="225px">
+  <img class="mySlides" src="http://www.squawka.com/news/wp-content/uploads/2017/03/GettyImages-647863964-2.jpg" alt="Bobby Firmino" style="width:100%" height="225px">
+  <img class="mySlides" src="https://i.ytimg.com/vi/17Sfmra0xXA/maxresdefault.jpg" style="width:100%" alt="Diarmuid Connelly" height="225px">
+  <img class="mySlides" src="http://www.johnhuhgolf.com/wp-content/uploads/2013/03/JHUH2.jpg" style="width:100%" alt="John Huh" height="225px">
+  <img class="mySlides" src="https://cdn-04.independent.ie/incoming/article35911722.ece/63632/AUTOCROP/w620/53Sheehan4.jpg" alt="Darragh Fitz" style="width:100%" height="225px">
+</div>
+
+<script>
+var myIndex = 0;
+slideshow();
+
+function slideshow() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(slideshow, 3000); 
+}
+</script>
+
         <p><strong>Sports Played:</strong> 
         Rugby, Hurling, Gaelic Football, Golf, Snooker</p>
         <p><strong>Other Interests:</strong> Basketball, American Football, Horse Racing</p>
@@ -51,7 +80,7 @@
          <tr><th>Position</th><td>Midfield</td><td>Full Back</td><td>Flanker</td><td>Striker</td><td>N/A</td> </tr>  
          <tr><th>Location</th><td>Buttevant</td><td>Charleville</td><td>Charleville</td><td>Bruff</td><td>Charleville</td></tr>
          <tr><th>Fav. Team</th><td>Dublin</td><td>Cork</td><td>Munster</td><td>Liverpool</td><td>Europe</td></tr>
-         <tr><th>Fav. Player</th><td>Diarmuid Connelly</td><td>Darragh Fitz</td><td>Michael Hooper</td><td>Sadio Mane</td><td>John Huh</td></tr> 
+         <tr><th>Fav. Player</th><td>Diarmuid Connelly</td><td>Darragh Fitz</td><td>Michael Hooper</td><td>Mo Salah</td><td>John Huh</td></tr> 
          </table>
          
         

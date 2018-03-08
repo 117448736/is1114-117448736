@@ -1,27 +1,233 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Favourite Sport</title>
+        
         <link ref = "stylesheet" href="sportstylesheet.css" type = "text/css" />
         <style>
         
-            .rugbyheading{
+        .subheading{
+    text-align:center;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+        
+        .mySlides {display:none;}
+        
+        .rugbyheading{
     color:crimson;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center
     }
     
+    .bgimage{
+        background-image: url("http://www.wilma.net.au/wp-content/uploads/Cool-Grey-Plain-Backgrounds.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bgimage{
+      
+    margin-right: 150px;
+    margin-left: 150px;
+    }
+    
+    p{
+        color: white;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    ul{
+      color: white;
+       font-family: Arial, Helvetica, sans-serif;  
+    }
+    h3{
+     color: white;
+       font-family: Arial, Helvetica, sans-serif;   
+    }
       </style>
     </head>
     
-    <body class="gradient">
+    <body class="bgimage">
         <h1 class="rugbyheading">Rugby</h1>
         <div align="center">
-        <p>My favourite sport is Rugby. I have been playing rugby since I was six.
+            <br/>
+            <br/>
+        
+        <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="http://d3gbf3ykm8gp5c.cloudfront.net/content/uploads/2017/02/02073245/1022.6666666666666x767__origin__0x0_Ireland_lineout_England.jpg" alt="Lineout" style="width:100%" height="250px">
+  <img class="mySlides" src="https://i.ytimg.com/vi/hmO1iZ-CIQc/maxresdefault.jpg" alt="scrum" style="width:100%" height="250px">
+  <img class="mySlides" src="https://cdn.images.express.co.uk/img/dynamic/69/590x/443486_1.jpg" style="width:100%" alt="tackle" height="250px">
+  <img class="mySlides" src="https://s-media-cache-ak0.pinimg.com/originals/09/c7/52/09c752b2ac4e6d62174ee793178765e4.jpg" style="width:100%" alt="try" height="250px">
+  <img class="mySlides" src="http://intheloose.com/wp-content/uploads/2015/08/dan-carter.jpg" alt="penalty" style="width:100%" height="250px">
+</div>
+
+</div>
+<script>
+var myIndex = 0;
+slideshow();
+
+function slideshow() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(slideshow, 3000); 
+}
+</script>
+<div align ="center">
+        <p align="center">My favourite sport is Rugby. I have been playing rugby since I was six.
             Rugby is a sport which is rapidly increasing in popularity nationaally and 
-            globally. Much of the national success can be attributed to the success
-            </p>
+            globally. Much of the national success can be attributed to the success of both
+            the national team and the Irish Provinces.I shall give some information about the 
+            sport so as to help people understand the sport better.
+        </p>
+        
+        <h1 class="subheading">Origins of rugby</h1>
+        
+           <div align="center">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71JB8RI2rdL._SY355_.jpg" alt="Webb Ellis Trophy" height="100px" width="125px">
+        
+        <p>
+            The game of rugby was founded when 16-year-old student William Webb Ellis, "with a fine disregard for the 
+            rules of football...first took the ball in his arms and ran with it, thus 
+            originating the distinctive feature of the rugby game." Lucky he didn't go 
+            to a Comprehensive - he'd have got the shoeing of his life.
+            
+            Arthur Pell establishes the first team at Cambridge and draws up the 'Cambridge Rules'
+            
+            However, Webb Ellis is credited with founding the game of rugby, hence
+            the World Cup Trophy is called the Web Ellis Trophy
+            
+        </p>
         </div>
         
+        <h2 class="subheading">Rules of Rugby</h2>
+        
+        <img src="http://rugby.com.au/-/media/news/2016/08/160828-lineout.ashx" alt="Lineout" height="150px" width="300px" style="float:center">
+           <p> <b>Lineout:</b> Looks somewhat like a jump-ball in basketball, with both teams lining up opposite each other, 
+        but one team then throws the ball down the middle of the tunnel and both sets of players compete by lifting
+        a jumper at either side. Line-outs restart play after the ball, or a player carrying it, has gone out of bounds.
+         </p>
+
+        <img src="http://a.espncdn.com/photo/2014/1110/14MAG_RUGBYZOOM001.jpg" alt="Maul"  height="150px" width="300px" >
+           <p> <b>Maul:</b> Occurs when a player carrying the ball is held by one or more opponents, and one or more of the
+        ball-carrier&apos;s teammates bind on the ball-carrier. All the players involved are on their feet and moving toward
+        a goal line. Open play has ended. If the defending team manage to hold up the attacker for about 30 seconds then
+        the defending </p>
+
+        <img src="https://pulse-static-files.s3.amazonaws.com/worldrugby/photo/2015/11/24/147e1d86-fd8b-4d84-b67c-77d11c3b0c61/GettyImages-476089984.jpg" alt="Ruck"  height="150px" width="300px">
+            <p>  <b>Ruck:</b> One or more players from each team, who are on their feet and in contact, close around the ball on the 
+        ground. Prior to the ruck when a tackle has been made, the defending team can compete for the ball by supporting
+        their body weight and placing their hands.Once a ruck has been formed, players can&apos;t use their hands to get the ball, 
+        only their feet.</p>
+
+        <img src="https://i.ytimg.com/vi/hmO1iZ-CIQc/maxresdefault.jpg" alt="Ruck"  height="150px" width="300px" >
+             <p> <b>Scrum:</b> A contest for the ball involving eight players who bind together and push against the other team&apos;s 
+        assembled eight for possession of the ball. Scrums restart play after certain minor infraction such as a knock-on 
+        or maul.</p>
+
+        <h3 style="color:crimson">RUGBY POSITIONS AND SCORING</h3>
+        <p>Like most sports that didn&apos;t originate in North America, the game of rugby can be difficult to comprehend at first
+        glance because of the large number of players involved, the seemingly random calls of the referee, and the wide 
+        variety of strategies employed by different teams to score points and get wins.</p>
+
+        </div>
+    <h3 style="color:crimson">RUGBY POSITIONS</h3>
+    <p>
+    A rugby team has 15 positions. Each one wears a specific number and has individual responsibilities:
+    <ul style="color:#DC143C">
+    <li><span style="color:#ffffff">1 and 3 are the props</span></li>
+
+    <li><span style="color:#ffffff">2 is the hooker</span></li>
+
+    <li><span style="color:#ffffff">4 and 5 are the locks</span></li>
+
+    <li><span style="color:#ffffff">6 and 7 are the flankers</span></li>
+
+    <li><span style="color:#ffffff">8 is, conveniently enough, the eightman</span></li>
+    </ul>
+    <p/>
+
+    <p>
+    This group is collectively referred to as the pack or the forwards. This group's 
+    main goal is to win possession of the ball. These players are usually the heavyweights
+    of the team, using their bulk and strength to try to overpower their opponents.
+    </p>
+    
+    <p>A rugby team has another group as well — the backs or back line:</p>
+    
+    <ul style="color:#DC143C">
+    <li><span style="color:#ffffff">9 is the scrumhalf</span></li>
+
+    <li><span style="color:#ffffff">10 is the flyhalf</span></li>
+
+    <li><span style="color:#ffffff">11 and 14 are the wings</span></li>
+
+    <li><span style="color:#ffffff">12 and 13 are the inside and outside centers</span></li>
+
+    <li><span style="color:#ffffff">15 is the fullback</span></li>
+    </ul>
+    
+    <p>To get a feel for what each player is charged with doing on the rugby pitch.</p>
+
+    
+    <h3 style="color:crimson">RUGBY SCORING</h3>
+    
+    
+        
+    <p>The aim of rugby is to score more points than the opposition. This is done in 
+    four different ways:</p>
+    
+    <ul style="color:#DC143C">
+        
+    <li><span style="color:#ffffff"><strong>Try:</strong> The most valuable play is to score a try, which means touching the ball down 
+    in the opponent&apos;s in-goal area or on their goal line. Doing so is worth five points 
+    and earns that team the right to attempt a conversion kick.</li>
+
+    <li><span style="color:#ffffff"><strong>Conversion kick:</strong> This kick is worth an additional two points. The conversion kick 
+    is taken from a spot in line with where the ball was originally grounded, so scoring 
+    as close to the posts as possible is best.</li>
+
+    <li><span style="color:#ffffff"><strong>Penalty kick:</strong> Penalties for various infractions can be used to take a kick at goal, 
+    which is worth three points.</li>
+
+    <li><span style="color:#ffffff"><strong>Dropped goal:</strong> A dropped goal, which occurs when the player drops the ball on the 
+    ground and then kicks it just as it bounces, is worth three points if it goes through 
+    the uprights.</li>
+    </ul>
+
+
+
+    <h3 style="color:crimson">TACKLING THE LAWS OF RUGBY</h3>
+    <div>
+    <p>
+    Rugby is governed by laws, not rules. The laws of the game are designed to produce an 
+    entertaining and free-flowing contest for possession in an attempt to score the most points.</p>
+
+    <p>The laws of rugby are constantly evolving and are the same all over the world, wherever 
+    the game is played. In general, the laws governing play are straightforward about what’s allowed, 
+    but three crucial parts can be somewhat confusing: the tackle situation, advantage, and offsides:</p>
+
+    <p>In a nutshell, when a tackle is made in rugby the requirements are that the tackler releases 
+    the tackled player, who then releases the ball so that players who are on their feet can use it.</p>
+
+    <p>Advantage simply means that when one team makes an error the other team can try to capitalize 
+    on it, instead of the referee immediately stopping the action. If the players can’t capitalize 
+    on the error, play restarts where the original mistake took place.</p>
+
+    <p>Specific offsides laws exist for different phases of play, but essentially players can&apos;t be 
+    involved if they&apos;re in front of a teammate who last played the ball or are behind the ball when 
+    the opposition has it.
+    </p>
+    </div>
+      </div>  
+        
+        
+        <a href="favplayer.html" style="float:right">Next</a>
     </body>
 </html>
