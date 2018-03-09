@@ -4,12 +4,18 @@
         
         <title>Amazon Cloud Services</title>
         <style>
+        .header {
+    background-color: grey;
+    color: #13CAE6;
+    padding: 15px;
+        }
+        
             ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: grey;
 }
 
 li {
@@ -25,38 +31,60 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #200200200;
+    background-color: #111;
+}
+
+li a.active {
+    background-color:#111 ;
+    color: white;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #13CAE6;
 }
+.txt{
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+     
+}
+.margin{
+     margin-right: 150px;
+    margin-left: 150px;
+}
+.gradient {
+    height: 100%;
+    background: navy; 
+    background: linear-gradient(to bottom, rgba(51,102,104,0) 0%, rgba(52,102,104,1) 100%);
+}
+.gradient{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
         </style>
         
         <link ref="stylesheet" href="cloudstylesheet.css" type="text/css" />
         
     </head>
     
-   <body>
-       <h1 class="mainheading" align ="center" style="color:dodgerblue">Infrastructure: Amazon Web Services</h1>
+   <body class="txt">
        
-          
-          <ul>
+       <div class="header">
+           <h1>JGM Cloud Services - Infrastructure</h1>
+           <ul>
              <li class="active"><a href="cloudhomepage.html">Home</a></li>
              <li><a href="C9.html">Cloud 9</a></li> 
              <li><a href="gmail.html">Gmail</a></li>
              <li><a href="salesforce.html">Salesforce</a></li>
             </ul>
-            
-           <br>
-      
-            <div align="center">
+        </div>
+         
+          <div class="gradient">
+            <div align="center" class="margin">
           <a href="https://aws.amazon.com/">
-             <img src="http://logos-download.com/wp-content/uploads/2016/12/Amazon_Web_Services_logo_AWS.png" height="100px" width="350px">
+             <img src="https://www.techfunnel.com/wp-content/uploads/2017/11/What-Is-IaaS.jpg" height="200px" width="350px">
           </a>
-          
-      
-      <h2 class="subheading">Infrastructure as a Service (IaaS):</h2>
+        <h2 class="subheading">Infrastructure as a Service (IaaS):</h2>
     <p>Infrastructure as a Service, sometimes abbreviated as IaaS, contains the 
     basic building blocks for cloud IT and typically provide access to networking
     features, computers (virtual or on dedicated hardware), and data storage space. 
@@ -64,6 +92,8 @@ li a:hover:not(.active) {
     and management control over your IT resources and is most similar to existing 
     IT resources that many IT departments and developers are familiar with today.
     </p>
+       <img src="http://logos-download.com/wp-content/uploads/2016/12/Amazon_Web_Services_logo_AWS.png" alt="AWS Logo"
+       height="150px" width="250px">
        
        <h2 class="subheading"> About Amazon Web Services</h2>
        
@@ -95,6 +125,7 @@ li a:hover:not(.active) {
        <h2> AWS bouquet of services includes the following:</h2>
        <br/>
        
+       <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX11283956.jpg" alt="storage" width="150px" height="200px">
     <ol>
        <li><strong>Simple Storage Service:</strong> This covers archiving of application programs and 
        data and online backup. The service is low cost, high speed and scalable.</li>
@@ -128,12 +159,13 @@ li a:hover:not(.active) {
        </ol>
        
        
-       
+       </br>
        <p>
            
-        <h2 class="subheading">What are the Advantages of Amazon Web Services?</h2>
+        <h2 class="subheading">Advantages of Amazon Web Services</h2>
         
 <h3>Low Cost</h3>
+<img src="http://www.westflare.com/wp-content/uploads/2014/12/icon-lowCost.png" alt="low cost" height="100px" width="100px">
 
 <p>AWS offers low, pay-as-you-go pricing with no up-front expenses or long-term commitments. 
 We are able to build and manage a global infrastructure at scale, and pass the cost saving 
@@ -143,7 +175,7 @@ expertise, we have been able to lower our prices on 15 different occasions over 
 <p>For more details, please refer to <a href="https://aws.amazon.com/economics/">Amazon Economics Center</a><p/>
 
 <h3>Agility and Instant Elasticity</h3>
-
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkZWbcrKGAUrXFmgdxbz4A2VGuF9E6ryss0j5jyUQKQJ1RryWz" alt="agility icon" height="150px" width="150px">
 <p>AWS provides a massive global cloud infrastructure that allows you to quickly innovate, 
 experiment and iterate. Instead of waiting weeks or months for hardware, you can instantly 
 deploy new applications, instantly scale up as your workload grows, and instantly scale 
@@ -153,7 +185,7 @@ them for a few hours or 24/7, you still only pay for what you use</p>
 <p>For more details, please refer to <a href="https://aws.amazon.com/architecture/">Amazon Architecture Center</a></p>
 
 <h3>Open and Flexible</h3>
-
+<img src="http://www.bliva.com/apex/event/r/files/static/v482/Flexibility-Icon.png" alt="Flexible Icon" height="100px" width="100px">
 <p>AWS is a language and operating system agnostic platform. You choose the development 
 platform or programming model that makes the most sense for your business. You can 
 choose which services you use, one or several, and choose how you use them. This 
@@ -162,40 +194,17 @@ flexibility allows you to focus on innovation, not infrastructure.</p>
 <p>For more details please refer to <a href="https://d36cz9buwru1tt.cloudfront.net/AWS_Overview.pdf">AWS Overview Whitepaper</a></p>
 
 
-
-<h3>Elasticity and Agility</h3>
-
-<p>AWS lets you iterate, experiment and innovate quickly through its huge global 
-cloud infrastructure. You can quickly scale up or scale down on the basis of demand. 
-You can also use new apps, rather than wait for months for hardware.
-So, you can swiftly subtract or add resources in accordance with customer demand 
-and manage costs more effectively. You can also avoid resource provisioning upfront 
-for projects with short lifetimes and variable consumption rates.</p>
-
-<p>A traditional IT organization would find it difficult to handle if traffic increased 
-several times in a short period. You have to be sure that your existing infrastructure 
-can handle a sudden increase in traffic and that such an increase will not affect normal 
-operations of the business. Auto scaling and elastic load balancing can scale up AWS cloud 
-based resources automatically in case of unforeseen increase in demand and also scale them 
-down if demand gets reduced.</p>
-
-<p>The AWS cloud also proves useful for jobs recurring at regular intervals, jobs that are 
-‘mission critical’ and jobs in the short term.</p>
-
-<p>For more details, please refer to <a href="https://aws.amazon.com/architecture/">Amazon Architecture</a></p>
-
 <h3>Experience</h3>
-
-You can benefit from the skills and infrastructure management capabilities of AWS 
+<img src="http://www.pvhc.net/img5/ogpegelacfubnkuajzfe.png" alt="Experience icon" height="100px" width="100px">
+<p>You can benefit from the skills and infrastructure management capabilities of AWS 
 that it continues to innovate and improve upon. Amazon has more than 15 years of 
-experience in delivering global infrastructure at a large scale.
+experience in delivering global infrastructure at a large scale.</p>
 <br/>
      </div> 
-       
-       
-    <a href = "C9.html" class="btn btn-dark" style="float:right"> Next </a>
+
         
-          
+       </div>   
+       
       
    </body> 
     

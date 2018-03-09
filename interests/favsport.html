@@ -45,6 +45,27 @@
      color: white;
        font-family: Arial, Helvetica, sans-serif;   
     }
+    .rank tr:nth-child(even){background-color: #ffffff;
+    
+    }
+
+.rank tr:nth-child(even){background-color: #999;}
+
+.rank tr:nth-child(odd){color:white;}
+
+
+.rank td, #customers th {
+    border: 1px solid #ddd;
+    
+}
+
+.rank tr:hover {background-color: #ddd;}
+
+.rank th {
+    text-align: left;
+    background-color: #ffffff;
+ color:red ;}
+
       </style>
     </head>
     
@@ -187,18 +208,18 @@ function slideshow() {
         
     <li><span style="color:#ffffff"><strong>Try:</strong> The most valuable play is to score a try, which means touching the ball down 
     in the opponent&apos;s in-goal area or on their goal line. Doing so is worth five points 
-    and earns that team the right to attempt a conversion kick.</li>
+    and earns that team the right to attempt a conversion kick.</span></li>
 
     <li><span style="color:#ffffff"><strong>Conversion kick:</strong> This kick is worth an additional two points. The conversion kick 
     is taken from a spot in line with where the ball was originally grounded, so scoring 
-    as close to the posts as possible is best.</li>
+    as close to the posts as possible is best.</span></li>
 
     <li><span style="color:#ffffff"><strong>Penalty kick:</strong> Penalties for various infractions can be used to take a kick at goal, 
-    which is worth three points.</li>
+    which is worth three points.</span></li>
 
     <li><span style="color:#ffffff"><strong>Dropped goal:</strong> A dropped goal, which occurs when the player drops the ball on the 
     ground and then kicks it just as it bounces, is worth three points if it goes through 
-    the uprights.</li>
+    the uprights.</span></li>
     </ul>
 
 
@@ -225,9 +246,26 @@ function slideshow() {
     the opposition has it.
     </p>
     </div>
-      </div>  
+       
+      
+      <h2 class="subheading">World Rugby Standings</h2>
+      <div align="center">
+      <table class="rank">
+          <th>Position</th><th>Teams</th><th>Points</th>
+          <tr><td>1</td><td>New Zealand</td><td>93.99</td></tr>
+          <tr><td>2</td><td>England</td><td>89.38</td></tr>
+          <tr><td>3</td><td>Ireland</td><td>87.21</td></tr>
+          <tr><td>4</td><td>Australia</td><td>85.49</td></tr>
+          <tr><td>5</td><td>Scotland</td><td>84.43</td></tr>
+          <tr><td>6</td><td>South Africa</td><td>83.81</td></tr>
+          <tr><td>7</td><td>Wales</td><td>83.07</td></tr>
+          <tr><td>8</td><td>Argentina</td><td>78.22</td></tr>
+          <tr><td>9</td><td>Fiji</td><td>77.93</td></tr>
+          <tr><td>10</td><td>France</td><td>77.56</td></tr>
+      </table>
+      </div>
         
         
-        <a href="favplayer.html" style="float:right">Next</a>
+        <a href="favplayer.html" style="float:right" class="link">Next</a>
     </body>
 </html>

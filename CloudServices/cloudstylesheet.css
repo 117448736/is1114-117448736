@@ -6,4 +6,14 @@
 }
 
 
+.gradient {
+    height: 100%;
+    background: blue; 
+    background: linear-gradient(to bottom, rgba(27,143,145,0) 0%, rgba(27,143,145,1) 100%);
+}
+.gradient{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
 

@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Cloud Services Hompeage</title>
-        
+        <link rel="stylesheet" href="cloudstylesheet.css" type="text/css" />
         <style>
         * {
     box-sizing: border-box;
@@ -10,7 +10,7 @@
 
 .header, .footer {
     background-color: grey;
-    color: #7AFF33;
+    color: #13CAE6;
     padding: 15px;
 
 }
@@ -38,12 +38,41 @@
 .menu li {
     padding: 8px;
     margin-bottom: 8px;
-    background-color: #7AFF33;
+    background-color: grey;
     color: #ffffff;
 }
 .menu li:hover {
     background-color: #0099cc;
+    
 }
+.subheading{
+    color: grey;
+}
+.txt{
+      font-family:Arial,Helvetica,sans-serif;
+      
+    
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: teal;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
 </style>
         
         
@@ -53,23 +82,31 @@
     </head>
     
     
-    <body>
+    <body class="txt">
     <div class="header">
-  <h1>JGM Cloud Services&trade;</h1>
+  <h1>BCD Cloud Services&trade;</h1>
+</div>
+
+<div align="center">
+    <br/>
+    <img src="http://www.irishbuildingmagazine.ie/wp-content/uploads/2014/05/BCD-Office.jpg" alt="bcd offices" height="250px" width="500px">
 </div>
 
 <div class="clearfix">
   <div class="column menu">
+      <br/>
     <ul>
+        <li><a href="../homepage.html">Homepage</a></li>
       <li><a href="amazon.html">Amazon</a></li>
       <li><a href="C9.html">Cloud9</a></li>
       <li><a href="gmail.html">Gmail</a></li>
       <li><a href="salesforce.html">SalesForce</a></li>
+      <li><a href="../ebusiness/Ebus1.php">Make a Purchase</a></li>
     </ul>
   </div>
 
   <div class="column content">
-    <h1>About Us</h1>
+    <h1 class="subheading">About Us</h1>
     
     <p>JGM is a Cloud Services vendor, who supplies the latest of Cloud 
     offerings to the market. JGM is a dynamic, growing business which is growing 
@@ -83,18 +120,22 @@
     Charleville. </a>
     </p>
     
+    <p>JGM Cloud Services was set up by Jack Meade in the summer of 2016. Jack is currently a student
+    in University College Cork. Here Jack studies Business Information Studies
+    and is currently in First Year. For more about about or CEO and his interests
+    <a href="../CV/cv_page1.html">Click Here</a></p>
+    
+    <p></p>
   </div>
 </div>
 
+
+
 <div class="footer" align="right">
   
-    &copy; Copyrights BCD | All rights Reserved
+    &copy; Copyrights JGM | All rights Reserved
     
 </div>
 
-
-    
-    
-        
-    </body>
+</body>
 </html>

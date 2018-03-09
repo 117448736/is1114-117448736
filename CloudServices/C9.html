@@ -6,12 +6,18 @@
         
         <link ref = "stylesheet" href="cloudstylesheet.css" type = "text/css" />
         <style>
-                      ul {
+        .header {
+    background-color: grey;
+    color: #13CAE6;
+    padding: 15px;
+        }
+        
+     ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: grey;
 }
 
 li {
@@ -27,38 +33,62 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #200200200;
+    background-color: #111;
+}
+
+li a.active {
+    background-color:#111 ;
+    color: white;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #13CAE6;
 }
+.txt{
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+     
+}
+.margin{
+     margin-right: 150px;
+    margin-left: 150px;
+}
+.gradient {
+    height: 100%;
+    background: navy; 
+    background: linear-gradient(to bottom, rgba(255,242,0,0) 0%, rgba(255,242,0,1) 100%);
+}
+.gradient{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
         </style>
         
         
     </head>
     
-   <body>
-       
-      <h1 class="mainheading" align ="center" style="color:dodgerblue">Cloud 9</h1>
-      
-       <ul>
+   <body class="txt">
+       <div class="gradient">
+       <div class="header">
+           <h1>JGM Cloud Services - Platform</h1>
+           <ul>
              <li class="active"><a href="cloudhomepage.html">Home</a></li>
              <li><a href="amazon.html">Amazon</a></li> 
              <li><a href="gmail.html">Gmail</a></li>
              <li><a href="salesforce.html">Salesforce</a></li>
             </ul>
-            
+            </div>
             <br/>
-       <div align="center">
-       <a href="https://aws.amazon.com/cloud9/">
-       <img src="https://static.c9.io/nc-3.1.4109-2ffb85e2-wf/static/plugins/c9.profile/static/images/cloud9-logo.svg" alt="image of C9" height="100px" width="150px"/>
-       </a>
-       </div>
+       <div align="center" class="margin">
+       
+       <img src="http://diginomica.com/wp-content/uploads/2015/03/platform-as-a-service.jpg" alt="image of C9" height="200px" width="450px"/>
+       
+       
        </br>
        
-       <div align="center">
-          <h2 class="subheading>">Plantform as a Service(PaaS):</h2>
+       
+          <h2 class="subheading>">Platform as a Service(PaaS):</h2>
           
           <p>Cloud platform services, or Platform as a Service (PaaS), are used for 
           , and other development, while providing cloud components to software.
@@ -75,17 +105,11 @@ li a:hover:not(.active) {
         PaaS can be delivered through a hybrid model that uses both public IaaS and 
         on-premise infrastructure or as a pure private PaaS that only uses the latter.</p>
 
-        <p>Similar to the way in which you might create macros in Excel, PaaS allows 
-        you to create applications using software components that are built into the 
-        PaaS (middleware). Applications using PaaS inherit cloud characteristic such 
-        as scalability, high-availability, multi-tenancy, SaaS enablement, and more. 
-        Enterprises benefit from PaaS because it reduces the amount of coding necessary, 
-        automates business policy, and helps migrate apps to hybrid model. For the needs 
-        of enterprises and other organizations, Apprenda is one provider of a private cloud 
-        PaaS for .NET and Java.</p>
            
-       </div>
-        <div align="center">
+       <a href="https://aws.amazon.com/cloud9/">
+           <img src="https://static.c9.io/nc-3.1.4109-2ffb85e2-wf/static/plugins/c9.profile/static/images/cloud9-logo.svg" alt="c9 logo" height="150px" width="175px">
+        </a>
+        
         <h2 class="subheading">About Cloud 9</h2>
        <p>AWS Cloud9 is a cloud-based integrated development environment (IDE) that 
        lets you write, run, and debug your code with just a browser. It includes 
@@ -99,11 +123,12 @@ li a:hover:not(.active) {
        local and remote execution of serverless applications. With Cloud9, you can 
        quickly share your development environment with your team, allowing you to 
        pair program and track each other's inputs in real-time.</p>
-       </div>
+       
        <h2 class="subheading">Cloud 9's services:</h2>
        
        <h3>Fully-featured Editor</h3>
-       
+       <img src="https://cdn4.iconfinder.com/data/icons/colicon/24/editor_document_file_edit_pen_pencil_2-512.png"
+       alt="editor" height="125px" width="125px">
     <p>AWS Cloud9 includes a browser-based editor that makes it easy to write, run, and 
     debug your projects. As you type, code completion and code hinting suggestions appear 
     in the editor, helping you code faster and avoid errors. Code completion is based not 
@@ -112,19 +137,22 @@ li a:hover:not(.active) {
     direction with a simple drag-and-drop action.</p>
     
     <h3>Broad Selection of Run Configurations</h3>
-    
+    <img src="https://cdn2.iconfinder.com/data/icons/vending-machine/500/station-512.png" alt="selection"
+        height="125px" width="125px">
     <p>AWS Cloud9 supports over 40 programming languages and application types including JavaScript, 
     Python, PHP, Ruby, Go, and C++. With Cloud9, you can either choose from the default run 
     configurations or define custom configurations by specifying environment variables, filenames, 
     command line options, etc.</p>
     
     <h3>Integrated Debugger</h3>
-    
+    <img src="https://www.embarcadero.com/images/free-tools/REST_Debugger_Logo_256x256px.png"
+    height="125px" width="125px">
     <p>AWS Cloud9 comes with an integrated debugger, which provides commonly used capabilities like setting 
     breakpoints, stepping through code, and inspecting variables of any PHP, Python, JS/Node.js, C/C++ app.</p>
 
     <h3>Integrated Tools for Serverless Development</h3>
-    
+    <img src="https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/tools-circle-blue-512.png"
+    alt="tools" height="125px" width="125px">
     <p>AWS Cloud9 allows you to easily build serverless applications by providing an integrated experience to get 
     started, write, and debug serverless application code. The Cloud9 development environment is pre-packaged with SDKs, 
     tools, and libraries needed for serverless application development. Cloud9 also supports the Serverless Application Model 
@@ -133,26 +161,23 @@ li a:hover:not(.active) {
     to the Lambda console for debugging.</p>
     
     <h3>Connectivity to Any Linux Server Platform</h3>
-    
+    <img src="https://www.cloudninerealtime.com/wp-content/uploads/2016/10/ah-connectivity-icon.png"
+    alt="connectivity" height="125px" width="125px">
     <p>You have the flexibility to run AWS Cloud9 development environments on a managed Amazon EC2 Linux instance or any Linux 
     server that you are using today. You can just choose the SSH connectivity option during Cloud9 setup when connecting to 
     your own Linux server that could be running anywhere including AWS, on-premises, or any other cloud provider.</p>
    
    <h3>Built-in Terminal</h3>
-   
+   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEU0SV7///8sPlDs8PEtRFrW2dzBxsshO1MOKkFteYZzf4vx9fUwRltTZHVndoXp7u8nP1abpa65v8UcOFEgNUmEjZYmOUwwRFfT1tpLXW9IV2bf5Oeut77d4OKLl6GjrLR8iZUFJj4/U2debX2Hkp03SFnHztKosbiUnqgUM01rAh+YAAAE/0lEQVR4nO3ca3OiPBiHcQ4RKImCiqK1qFWr3e//BR9s3a2SeAjQ8f7z3NerndnZXX5jQg7u1HG7nvPsB/j1WIgfC/FjIX4sxI+F+LEQPxbix0L8bgiLfYDSvicthf5hrf6MQ5zGf0R8SB4WFus0FA5aIk3j4iGhXAPyvhPhWh+tmnAm0mc/aINSMbsnfBurZz9lo1R4uC08jJ/9iI0bH24JA3xgSQyuCxcCe4h+p8TiqnCL+hK9TAyuCTsxRo9djNNzodOFMXpMOWbhvisfYfkh7o3CuBuz8JiIjcLODNLLYfrzy1n47OdqsXBmEI46JRwZhDvkHXe1dGcQrrvzorl41fwIO/QqZWEXYiF+LMSPhfixUEuh6W2FYrlMsYy2wnTozrZQl+H2QinlaAN0gKwh9H0phw7MEbKWsDQWa5TpWFNYGlGmY22hf5yOCEO1vrA0+p+KvrGJ8Gs6kv8evJmwNO77xKej9Z5mJytE+UZ7OlrvS9Pt/pLoy+RTEB6q9mcLEa4XVWMvHpM11jk9pWooq8b9PCQ6HeudD9NNoE3HA9HpWPMErMKXmTYdaZ6rap/xhVgm2nR8IbhyNLjFSJ03bToG85Sa0Sh8eWy0qXFfWznkitp0FC/1haUx1VeOxZLWRq6Z0Lxy9Eidq5oKHSfcjAzTkc7q2FxYTsdBr0r0V2SuOVoQmleOxY7IRq4VoXnl6G1JDNWWhOUmR1s5fDmaE7h1bEt4NMZFlZisNq0/sW3tCcU4XlSFctX6A9s/V2ujdKttxWlcxrX1ptnobxoiF6rtrBbpUt+8TYicpdpZ8QttgNL5YqOxUIXzwDABCSwTpxrvvJ2hr03AAYml/lQzoRjrp6dkR+tusYlQpX19hVhR+yqjgVBfIeTx2PTbT2xbbaEITTdRlCbgqZpC05kwWdKagKdqCVWqrxD+gdoEPFVHaFohgj65CXjKXliuENoWphcT2aIZsham+h1p8knXZy/UvyH138hsQY3ZCvVvuW/fxihhVfvAhkK5uDMBVX9g1S9cejQRlhPw3gV+GEirBu1/ivWF5QS8f0YKR9ULuJuREt6bgN/hCuXisf+5hyqU/vDBK3tMoZSj+aMrIKTQnVl8HwEoFMudzRYNUOjY7TvCkZ9Y5FMQ2qXmfasI7GlsU3a19u/+9NvC58dC/FiIHwvxYyF+LMSPhfixED8W4sdC/FiIHwvxYyF+LMSPhfixED8W4sdC/FiIHwvxYyF+LMSPhfgZhf/vn+cNFwvxYyF+LMSPhfixED8W4sdC/FiIHwvxYyF+LMSPhfixED8W4mcUrjslXBuEk04JJyYh6R8TaFnKQvimRmH27MdqscwspPcDj+uWXxF6z36w1vKMwl3m5c9+spbKvWxpEA4zz+vGOFWelw0NwiDyvG6M09IRBQZhUX6GnSAeGVlhELof0+PvoQ9UdURMP1yTcPL1IYK/bvIvw9mr9FzYe/e+w/0Y1Unw3jMK3depB2386/Omr65ZuI+8f+U5llLl+c/DR7MrQjfOvC6Uxe41oZ9P7/958k1z/6rQnUX3/wLyXYzRqtAd4RPPtjMmoRtk2AN1mlWAmtAtPpBfN9lHUQVpQtddZqjG7OzQdEvoLiZ5BDdYp1mU7xKDxiR0XRlMXqP3CKf36HUSSKPFLPwqKXooFaYP776wI7EQPxbix0L8WIgfC/FjIX4sxI+F+HVf+B/igqORgWNK/QAAAABJRU5ErkJggg=="
+   alt="Built in Terminal" height="125px" width="125px">
     <p>AWS Cloud9 provides a terminal that has full sudo privileges to your managed Amazon EC2 instance. It enables you to run commands, 
     such as pushing code changes to git, compiling your code, or displaying command output from your servers. A pre-authenticated AWS
     Command Line Interface is installed in your terminal, allowing you to easily control and interact with AWS services directly from 
     the command line.</p>
    
-   <h3>Keyboard Shortcuts</h3>
-   
-    <p>In addition to the default key bindings, AWS Cloud9 offers the choice to use VIM, Emacs, and Sublime key bindings, as well as to define 
-    your own custom bindings. This allows you to use the same commands and shortcuts you are already familiar with.</p>
-    
-    
-    <a href="gmail.html" class="btn btn-dark" style="float:right">Next</a>
-    
+ 
+    </div>
+    </div>
     </body>
     
     
